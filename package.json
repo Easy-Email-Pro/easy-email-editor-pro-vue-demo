@@ -1,0 +1,33 @@
+{
+  "name": "easy-email-pro-vue-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@arco-design/web-react": "^2.61.3",
+    "@arco-themes/react-easy-email-pro": "^0.0.1",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "easy-email-pro-core": "^1.26.7",
+    "easy-email-pro-editor": "^1.26.7",
+    "easy-email-pro-theme": "^1.26.7",
+    "mjml-browser": "^4.15.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "slate": "^0.102.0",
+    "slate-history": "^0.100.0",
+    "slate-react": "^0.102.0",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
