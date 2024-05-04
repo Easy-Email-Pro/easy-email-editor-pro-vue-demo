@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
+    "update": "pnpm add easy-email-pro-core@latest easy-email-pro-editor@latest easy-email-pro-kit@latest easy-email-pro-theme@latest easy-email-pro-localization@latest easy-email-pro-asset-manager@latest easy-email-pro-plugins@latest",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -13,9 +14,13 @@
     "@arco-themes/react-easy-email-pro": "^0.0.1",
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
-    "easy-email-pro-core": "^1.26.7",
-    "easy-email-pro-editor": "^1.26.7",
-    "easy-email-pro-theme": "^1.26.7",
+    "easy-email-pro-asset-manager": "^1.31.1",
+    "easy-email-pro-core": "^1.31.1",
+    "easy-email-pro-editor": "^1.31.1",
+    "easy-email-pro-kit": "^1.31.1",
+    "easy-email-pro-localization": "^1.31.1",
+    "easy-email-pro-plugins": "^1.31.1",
+    "easy-email-pro-theme": "^1.31.1",
     "mjml-browser": "^4.15.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

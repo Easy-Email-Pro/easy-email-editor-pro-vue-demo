@@ -17,15 +17,27 @@ dependencies:
   '@types/react-dom':
     specifier: ^18.2.25
     version: 18.2.25
+  easy-email-pro-asset-manager:
+    specifier: ^1.31.1
+    version: 1.31.1(react-dom@18.2.0)(react@18.2.0)
   easy-email-pro-core:
-    specifier: ^1.26.7
-    version: 1.26.7(axios@1.6.8)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^1.31.1
+    version: 1.31.1(axios@1.6.8)(react-dom@18.2.0)(react@18.2.0)
   easy-email-pro-editor:
-    specifier: ^1.26.7
-    version: 1.26.7(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^1.31.1
+    version: 1.31.1(react-dom@18.2.0)(react@18.2.0)
+  easy-email-pro-kit:
+    specifier: ^1.31.1
+    version: 1.31.1(react-dom@18.2.0)(react@18.2.0)
+  easy-email-pro-localization:
+    specifier: ^1.31.1
+    version: 1.31.1
+  easy-email-pro-plugins:
+    specifier: ^1.31.1
+    version: 1.31.1(react-dom@18.2.0)(react@18.2.0)
   easy-email-pro-theme:
-    specifier: ^1.26.7
-    version: 1.26.7(@arco-design/web-react@2.61.3)(mjml-browser@4.15.3)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^1.31.1
+    version: 1.31.1(@arco-design/web-react@2.61.3)(mjml-browser@4.15.3)(react-dom@18.2.0)(react@18.2.0)
   mjml-browser:
     specifier: ^4.15.3
     version: 4.15.3
@@ -175,6 +187,20 @@ packages:
     dependencies:
       react: 18.2.0
       tslib: 2.6.2
+    dev: false
+
+  /@emoji-mart/data@1.2.1:
+    resolution: {integrity: sha512-no2pQMWiBy6gpBEiqGeU77/bFejDqUTRY7KX+0+iur13op3bqUsXdnwoZs6Xb1zbv0gAj5VvS1PWoUUckSr5Dw==}
+    dev: false
+
+  /@emoji-mart/react@1.1.1(emoji-mart@5.6.0)(react@18.2.0):
+    resolution: {integrity: sha512-NMlFNeWgv1//uPsvLxvGQoIerPuVdXwK/EUek8OOkJ6wVOWPUizRBJU0hDqWZCOROVpfBgCemaC3m6jDOXi03g==}
+    peerDependencies:
+      emoji-mart: ^5.2
+      react: ^16.8 || ^17 || ^18
+    dependencies:
+      emoji-mart: 5.6.0
+      react: 18.2.0
     dev: false
 
   /@esbuild/aix-ppc64@0.20.2:
@@ -575,6 +601,16 @@ packages:
     resolution: {integrity: sha512-t7dhREVv6dbNj0q17X12j7yDG4bD/DHYX7o5/DbDxobP0HnGPgpRz2Ej77aL7TZT3DSw13fqUTj8J4mMnqa7WA==}
     dev: false
 
+  /@types/mjml-core@4.7.4:
+    resolution: {integrity: sha512-hajbYITLm/wJU99Of50Dmn/k4ok+mrhJs4qDdnveJsINdiNJhQd+03C6Kt09vF9biB23cEI4pPeLrJNYfIZf7g==}
+    dev: false
+
+  /@types/mjml@4.7.4:
+    resolution: {integrity: sha512-vyi1vzWgMzFMwZY7GSZYX0GU0dmtC8vLHwpgk+NWmwbwRSrlieVyJ9sn5elodwUfklJM7yGl0zQeet1brKTWaQ==}
+    dependencies:
+      '@types/mjml-core': 4.7.4
+    dev: false
+
   /@types/prop-types@15.7.12:
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
     dev: false
@@ -864,6 +900,10 @@ packages:
       object-assign: 4.1.1
     dev: false
 
+  /cropperjs@1.6.2:
+    resolution: {integrity: sha512-nhymn9GdnV3CqiEHJVai54TULFAE3VshJTXSqSJKa8yXAKyBKDWdhHarnlIPrshJ0WMFTGuFvG02YjLXfPiuOA==}
+    dev: false
+
   /cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
@@ -929,8 +969,20 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: false
 
-  /easy-email-pro-core@1.26.7(axios@1.6.8)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-/wjHW9LdK6uDbH20MIkbbMRrS4uahkVQZm6LeiDJE+waNFwR4cPyFX8+FCLRmv4K6GBZXL68kw/QvvMCnQrgtg==}
+  /easy-email-pro-asset-manager@1.31.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-k2hdTxA+zt+6QPeoZdH24XChn2LwXvzu+omNEqhdVTfCamvPRBO4Htxyw+ujDap/GUDATYi91UYEBZNtBtxBfg==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      cropperjs: 1.6.2
+      react: 18.2.0
+      react-cropper: 2.3.3(react@18.2.0)
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /easy-email-pro-core@1.31.1(axios@1.6.8)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-rALGJNZI7YG7/S4LLuvNijGaudTNIB9U/2lW2EMLxnFtXhT7TiVSsEY79S/WXFNEKsdDLyZKAbRTY+85BZ/CAw==}
     peerDependencies:
       axios: ^1.4.0
       react: ^18.2.0
@@ -950,8 +1002,8 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /easy-email-pro-editor@1.26.7(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-EFi6wdEAOBR+yJAGiAdY5RAnspDR2Pm6fQcvEBpHqY1EJNvtErljnlsLVq2psycOI+uGLWJQ9NXLJrTN2BI0Ng==}
+  /easy-email-pro-editor@1.31.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-LxfFRBInWdX1FqLmsgKx2OB8lzBDDEAW7O908+bLhpmNNZjFkpaFiyk2mqIW0rhiV3MnRVhDY7gJ5D7jwGWgjA==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -971,8 +1023,40 @@ packages:
       - debug
     dev: false
 
-  /easy-email-pro-theme@1.26.7(@arco-design/web-react@2.61.3)(mjml-browser@4.15.3)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-dgqMmpDwudsMAOyOBVXDf1bcK1bR5s08D0gbKdEhBHKb3AUR1jCwYgSGttWXqZV4fWPuyxDOj6Cp0nqegsnjVg==}
+  /easy-email-pro-kit@1.31.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-NJqSNaisRSTTUKeUn+K+POD6J1Tlkp96MgGWmvvqD2fr+Vj6aDL9yzz44/3TUbqCWCTLKbOZ/CpSlgNWGdp2Qg==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      '@types/gif.js': 0.2.5
+      '@types/mjml': 4.7.4
+      gif.js: 0.2.0
+      modern-gif: 1.1.10
+      qr-code-styling: 1.6.0-rc.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /easy-email-pro-localization@1.31.1:
+    resolution: {integrity: sha512-dTtagAj04a2QZTbIfYY0d2R7Ak3LXRbumP6ubOU0//kPkVg7bt1W1cb20dVLoBEc1lc6gT5Oom5Fa6IzYGdFZQ==}
+    dev: false
+
+  /easy-email-pro-plugins@1.31.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-/8SqpBk7GqvGiFB7XM6AI+Ax1GwZw5K5Lk5V842IBY8Z5ESBI8/MA7n0wXIn0Tmbq8+zYHPFnfYqhlIKTCwZQg==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      '@emoji-mart/data': 1.2.1
+      '@emoji-mart/react': 1.1.1(emoji-mart@5.6.0)(react@18.2.0)
+      emoji-mart: 5.6.0
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /easy-email-pro-theme@1.31.1(@arco-design/web-react@2.61.3)(mjml-browser@4.15.3)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-bQaKIs9k4lFpPauUzSjtkDbNMKc0ZsUkUxfeGZPBaEK89Z1likwX1a027Vr+dD2nHJ4UOf81UI0BtUJyh8ioPA==}
     peerDependencies:
       '@arco-design/web-react': ^2.46.3
       mjml-browser: ^4.14.1
@@ -1022,6 +1106,10 @@ packages:
     resolution: {integrity: sha512-Fl5Ftk6WwXE0wqCgNoseKWndjzZlDCwuPTcoVZfCP9R3EHQF8qUtr3YUPNETegRBOKqQKPW3n4kiIWngGi8tKg==}
     dependencies:
       batch-processor: 1.0.0
+    dev: false
+
+  /emoji-mart@5.6.0:
+    resolution: {integrity: sha512-eJp3QRe79pjwa+duv+n7+5YsNhRcMl812EcFVwrnRvYKoNPoQb5qxU8DG6Bgwji0akHdp6D4Ln6tYLG58MFSow==}
     dev: false
 
   /emoji-regex@8.0.0:
@@ -1460,6 +1548,16 @@ packages:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
     dev: false
 
+  /qr-code-styling@1.6.0-rc.1:
+    resolution: {integrity: sha512-ModRIiW6oUnsP18QzrRYZSc/CFKFKIdj7pUs57AEVH20ajlglRpN3HukjHk0UbNMTlKGuaYl7Gt6/O5Gg2NU2Q==}
+    dependencies:
+      qrcode-generator: 1.4.4
+    dev: false
+
+  /qrcode-generator@1.4.4:
+    resolution: {integrity: sha512-HM7yY8O2ilqhmULxGMpcHSF1EhJJ9yBj8gvDEuZ6M+KGJ0YY2hKpnXvRD+hZPLrDVck3ExIGhmPtSdcjC+guuw==}
+    dev: false
+
   /raf-schd@4.0.3:
     resolution: {integrity: sha512-tQkJl2GRWh83ui2DiPTJz9wEiMN20syf+5oKfB03yYP7ioZcJwsIK8FjrtLwH1m7C7e+Tt2yYBlrOpdT+dyeIQ==}
     dev: false
@@ -1493,6 +1591,15 @@ packages:
       react: ^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
     dependencies:
       '@babel/runtime': 7.24.4
+      react: 18.2.0
+    dev: false
+
+  /react-cropper@2.3.3(react@18.2.0):
+    resolution: {integrity: sha512-zghiEYkUb41kqtu+2jpX2Ntigf+Jj1dF9ew4lAobPzI2adaPE31z0p+5TcWngK6TvmWQUwK3lj4G+NDh1PDQ1w==}
+    peerDependencies:
+      react: '>=17.0.2'
+    dependencies:
+      cropperjs: 1.6.2
       react: 18.2.0
     dev: false
 
